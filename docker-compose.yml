@@ -1,0 +1,10 @@
+services:
+  htmltopdf:
+    build:
+      context: .
+      platforms:
+        - linux/amd64
+
+    image: htmltopdf-lambda:latest
+    env_file:
+      - .env  # Load environment variables at build time

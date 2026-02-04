@@ -1,0 +1,4 @@
+pdfkit
+awslambdaric
+boto3
+python-dotenv
