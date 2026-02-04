@@ -74,7 +74,7 @@ On success, returns a JSON object with the S3 URL of the generated PDF:
 ```json
 {
   "statusCode": 200,
-  "body": "{\"pdf_s3_url\": \"https://bellemar.s3.amazonaws.com/pdfs/hello.pdf\"}"
+  "body": "{\"pdf_s3_url\": \"https://codecrafter08.s3.amazonaws.com/pdfs/hello.pdf\"}"
 }
 ```
 
@@ -101,3 +101,4 @@ Replace `<your-profile>`, `<your-account-id>`, `<region>`, and `<tag>` with your
 ## License
 
 [Add License Information Here]
+
